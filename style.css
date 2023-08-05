@@ -89,3 +89,50 @@ img {
     background-color: #8fac55;
     text-decoration: line-through;
 }
+
+@media screen and (max-width: 576px) {
+    .conteiner {
+        background-color: #d1d1d1;
+        width: 420px;
+        min-height: 90%;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 100px auto 0;
+    }
+
+    .button-add-task {
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        width: 150px;
+        background-color: #003329;
+        color: #ffffff;
+        font-size: 17px;
+        padding: 0 25px;
+        float: none;
+        cursor: pointer;
+        font-weight: 500;
+        margin: 20px 110px 20px 110px;
+
+        
+    }
+
+    .list-task {
+        width: 100%;
+        list-style: none;
+        margin-top: 0px;
+    }
+
+    .task {
+        background-color: #f2f2f2;
+        box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+}
